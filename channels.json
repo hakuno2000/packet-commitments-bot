@@ -1,0 +1,28 @@
+[
+  {
+    "chain": "realionetwork_3301-1",
+    "channels": [
+      "channel-1",
+      "channel-2"
+    ]
+  },
+  {
+    "chain": "onomy-1",
+    "channels": [
+      "channel-0"
+    ]
+  },
+  {
+    "chain": "osmosis-1",
+    "channels": [
+      "channel-1424",
+      "channel-525"
+    ]
+  },
+  {
+    "chain": "cosmoshub-4",
+    "channels": [
+      "channel-645"
+    ]
+  }
+]
