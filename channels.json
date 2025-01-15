@@ -7,7 +7,7 @@
     ]
   },
   {
-    "chain": "onomy-1",
+    "chain": "onomy-mainnet-1",
     "channels": [
       "channel-0"
     ]
