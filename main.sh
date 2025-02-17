@@ -18,5 +18,6 @@ for chain in "${chains[@]}"; do
 done
 echo "$FINAL_RESULT"
 
-source /root/packet-commitments-bot/.env
-curl -d "text=$FINAL_RESULT" -d "channel=$DU" -H "Authorization: Bearer $BOT_OAUTH_TOKEN" -X POST https://slack.com/api/chat.postMessage | jq
+source .env
+date 
+curl -s -d "text=$FINAL_RESULT" -d "channel=$DU" -H "Authorization: Bearer $BOT_OAUTH_TOKEN" -X POST https://slack.com/api/chat.postMessage | jq
