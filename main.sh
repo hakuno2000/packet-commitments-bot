@@ -17,3 +17,6 @@ for chain in "${chains[@]}"; do
     done
 done
 echo "$FINAL_RESULT"
+
+source .env
+curl -d "text=$FINAL_RESULT" -d "channel=$DU" -H "Authorization: Bearer $BOT_OAUTH_TOKEN" -X POST https://slack.com/api/chat.postMessage | jq
