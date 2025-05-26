@@ -7,16 +7,9 @@
     ]
   },
   {
-    "chain": "onomy-mainnet-1",
-    "channels": [
-      "channel-0"
-    ]
-  },
-  {
     "chain": "osmosis-1",
     "channels": [
-      "channel-1424",
-      "channel-525"
+      "channel-1424"
     ]
   },
   {
