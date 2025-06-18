@@ -3,7 +3,8 @@
     "chain": "realionetwork_3301-1",
     "channels": [
       "channel-1",
-      "channel-2"
+      "channel-2",
+      "channel-4"
     ]
   },
   {
@@ -16,6 +17,12 @@
     "chain": "cosmoshub-4",
     "channels": [
       "channel-645"
+    ]
+  },
+  {
+    "chain": "kaiyo-1",
+    "channels": [
+      "channel-115"
     ]
   }
 ]
